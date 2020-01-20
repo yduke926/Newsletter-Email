@@ -1,238 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Red Velvet Cookie Email</title>
     <style>
-        @media only screen and (max-width: 630px) {
+      @media only screen and (max-width: 630px) {
+        .order-now {
+          padding: 30px 20px;
+        }
+      }
 
-            .pre-header,
-            .header,
-            .footer {
-                max-width: 100%;
-                table-layout: fixed;
-            }
-
-            .order-now {
-                padding: 30px 20px;
-            }
-
+      @media only screen and (max-width: 550px) {
+        .order-now h3 {
+          padding: 0 !important;
+        }
+        .elites-td {
+          max-width: 100%;
+          display: block;
         }
 
-        @media only screen and (max-width: 550px) {
-            .elites-td {
-                max-width: 100%;
-                display: block;
-            }
-
-            .elites-td img {
-                min-width: 100px;
-
-            }
-
-            .elites-right-td {
-                max-width: 100%;
-                margin: 0 auto;
-                display: block;
-            }
-
-            .footer img:nth-child(1) {
-                display: block;
-            }
+        .elites-td img {
+          min-width: 100px;
         }
+
+        .elites-right-td {
+          max-width: 100%;
+          margin: 0 auto;
+          display: block;
+        }
+
+        .footer img:nth-child(1) {
+          display: block;
+        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <div class="email"
-        style="background-color: #f3f3f3; text-align: center; color: #555555; padding: 10px; font-size: 10px; font-family: 'Montserrat', Arial, sans-serif; margin: 0 !important; box-sizing: border-box; display: block; overflow-x: hidden;">
-        <!-- start of email -->
-        <table class="pre-header" border="0" cellspacing="0" cellpadding="0"
-            style="width: 600px; table-layout: fixed; margin:0 auto;">
-            <tr>
+  <body>
+    <div
+      class="email"
+      style="background-color: #f3f3f3; text-align: center; color: #555555; padding: 10px; font-size: 10px; font-family: 'Montserrat', Arial, sans-serif; margin: 0 !important; box-sizing: border-box; display: block; overflow-x: hidden;"
+    >
+      <!-- start of email -->
+      <table
+        class="pre-header"
+        border="0"
+        cellspacing="0"
+        cellpadding="0"
+        style="width: 100%; max-width: 600px; table-layout: fixed; margin:0 auto;"
+      >
+        <tr>
+          <td>
+            <p
+              style="text-align: center; padding: 12px 10px; font-size: 10px; font-family: Helvetica, sans-serif; "
+            >
+              Add a little flavor to your week with our Flavor of the Week
+              <br />
+              <a
+                style="font-size: 10px; color: #555555; text-decoration: underline; cursor: pointer;"
+              >
+                Order Now
+              </a>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+      <!-- start of email container -->
+      <table
+        class="header"
+        border="0"
+        cellspacing="0"
+        cellpadding="0"
+        style="width: 100%; max-width: 600px; table-layout: fixed; margin:0 auto; border: 1px solid #ccc9c9; background-color: #ffff;"
+      >
+        <!-- start of header -->
+        <tr>
+          <td>
+            <img
+              src="img/Tiffs-logo.png"
+              alt="logo"
+              style="width: 270px; padding: 40px 0px 10px 0px; cursor: pointer;"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="img/smaller-ribbon.png"
+              alt="ribbon"
+              style="width: 100%;"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table
+              class="header-links"
+              cellspacing="0"
+              cellpadding="0"
+              align="center"
+              style="table-layout: fixed; padding-bottom: 10px;"
+            >
+              <tr>
+                <td
+                  class="header-link"
+                  style="text-transform: uppercase; padding: 0px 10px; font-size: 14px; font-weight: 500; color: #888888; text-align: center; width: 25%; cursor: pointer;"
+                >
+                  order
+                </td>
+                <td
+                  class="header-link"
+                  style="text-transform: uppercase; padding: 0px 10px; font-size: 14px; font-weight: 500; color: #888888; text-align: center; width: 25%; cursor: pointer;"
+                >
+                  menu
+                </td>
+                <td
+                  class="header-link"
+                  style="text-transform: uppercase; padding: 0px 10px; font-size: 14px; font-weight: 500; color: #888888; text-align: center; width: 25%; cursor: pointer;"
+                >
+                  specials
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- end of header -->
+        <!-- start of hero -->
+        <tr>
+          <td>
+            <table
+              class="cookie-hero"
+              cellspacing="0"
+              cellpadding="0"
+              align="center"
+              style="table-layout: fixed; width: 100%;"
+            >
+              <tr>
                 <td>
-                    <p
-                        style="text-align: center; padding: 12px 10px; font-size: 10px; font-family: Helvetica, sans-serif; ">
-                        Add a little flavor to your week with our Flavor of the Week <br />
-                        <a style="font-size: 10px; color: #555555; text-decoration: underline; cursor: pointer;">
-                            Order Now
-                        </a>
-                    </p>
+                  <img
+                    src="img/red-velvet-cookies.jpg"
+                    alt="Red Velvet Cookies"
+                    style="width: 100%;"
+                  />
                 </td>
-            </tr>
-        </table>
-        <!-- start of email container -->
-        <table class="header" border="0" cellspacing="0" cellpadding="0"
-            style="width: 600px; table-layout: fixed; margin:0 auto; border: 1px solid #ccc9c9; background-color: #ffff;">
-            <!-- start of header -->
-            <tr>
-                <td>
-                    <img src="img/Tiffs-logo.png" alt="logo"
-                        style="width: 270px; padding: 40px 0px 10px 0px; cursor: pointer;">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/smaller-ribbon.png" alt="ribbon" style="width: 100%;">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <table class="header-links" cellspacing="0" cellpadding="0" align="center"
-                        style="table-layout: fixed; padding-bottom: 10px;">
-                        <tr>
-                            <td class="header-link"
-                                style="text-transform: uppercase; padding: 0px 10px; font-size: 14px; font-weight: 500; color: #888888; text-align: center; width: 25%; cursor: pointer;">
-                                order
-                            </td>
-                            <td class="header-link"
-                                style="text-transform: uppercase; padding: 0px 10px; font-size: 14px; font-weight: 500; color: #888888; text-align: center; width: 25%; cursor: pointer;">
-                                menu
-                            </td>
-                            <td class="header-link"
-                                style="text-transform: uppercase; padding: 0px 10px; font-size: 14px; font-weight: 500; color: #888888; text-align: center; width: 25%; cursor: pointer;">
-                                specials
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- end of header -->
-            <!-- start of hero -->
-            <tr>
-                <td>
-                    <table class="cookie-hero" cellspacing="0" cellpadding="0" align="center"
-                        style="table-layout: fixed; width: 100%;">
-                        <tr>
-                            <td>
-                                <img src="img/red-velvet-cookies.jpg" alt="Red Velvet Cookies" style="width: 100%;">
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- end of hero -->
-            <!-- start of order now details -->
-            <tr>
-                <td>
-                    <table class="order-now" cellspacing="0" cellpadding="0" align="center"
-                        style="table-layout: fixed; width: 100%; padding-bottom: 30px;">
-                        <tr>
-                            <td align="center">
-                                <h2
-                                    style="font-size: 24px; color: #003b64; text-transform: uppercase; font-family: Heletica, sans-serif; font-weight: 100;">
-                                    Delight in our rich, new flavor</h2>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="img/Red-Velvet.jpg" alt="Red Velvet" style="max-width: 100%; margin: 0 auto;">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h3
-                                    style="padding: 10px 30px; color: #444444; font-size: 18px; font-weight: 400; line-height: 24px;">
-                                    Our latest Flavor of the Week features a beloved classic. Our Red Velvet cookies are
-                                    sprinkled with powdered sugar and have real cream cheese baked right into the dough.
-                                    As one of our most popular flavors, these warm, velvety cookies won't last long!
-                                </h3>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#"><img src="img/order-now-btn.png" alt="order now" width="180"></a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- end of order now details-->
-            <!-- start of Elites row -->
-            <tr>
-                <td style="background-color: #003b64;" align="center">
-                    <table class="elites" cellspacing="0" cellpadding="20" align="center"
-                        style="table-layout: fixed; width: 100%; padding: 5px; border: 1px solid #ffffff; background-color: #003b64;">
-                        <tr>
-                            <!-- start of left column -->
-                            <td width="25%" class="elites-td">
-                                <table class="elites" cellspacing="0" cellpadding="20" align="left"
-                                    style="table-layout: fixed; width: 100%; background-color: #003b64;">
-                                    <tr>
-                                        <td>
-                                            <img src="img/Elites-white.jpg" alt="Elites"
-                                                style="width: 100%; cursor: pointer;">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <!-- end of left column -->
-                            <!-- start of right column -->
-                            <td width="75%" class="elites-right-td">
-                                <table class="elites" cellspacing="0" cellpadding="0" align="left"
-                                    style="table-layout: fixed; max-width: 100%; background-color: #003b64;">
-                                    <tr>
-                                        <td>
-                                            <h3
-                                                style="font-size: 20px; color: #ffffff; font-weight: 500; text-transform: uppercase; margin-bottom: 0;">
-                                                Never pay for delivery again.</h3>
-                                            <p
-                                                style="display: block; font-size: 12px; color: #ffffff; line-height: 16px; margin-top: 0;">
-                                                Sign up for a Tiff's Treats Elites membership and get access to
-                                                exclusive deals, free delivery for a year, and more!<span
-                                                    style="text-transform: uppercase; font-weight: 500; cursor: pointer;">
-                                                    SIGN UP NOW</span></p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- end of Elites row -->
-            <!-- start of footer -->
-        </table>
-        <table class="footer" border="0" cellspacing="0" cellpadding="0" align="center"
-            style="width: 600px; table-layout: fixed; background-color: #f3f3f3; text-align: center; color: #555555; padding: 10px; font-size: 12px; line-height: 18px;">
-            <tr>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- end of hero -->
+        <!-- start of order now details -->
+        <tr>
+          <td>
+            <table
+              class="order-now"
+              cellspacing="0"
+              cellpadding="0"
+              align="center"
+              style="table-layout: fixed; width: 100%; padding-bottom: 30px;"
+            >
+              <tr>
                 <td align="center">
-                    <img src="img/cookie-delivery-com-blue.png" alt="cookie delivery dot com" width="250"
-                        style="cursor: pointer;">
-                    <img src="img/Instagram.png" alt="Instagram" width="40" style="cursor: pointer;">
-                    <img src="img/facebook.png" alt="Facebook" width="30" style="cursor: pointer;">
-                    <img src="img/twitter.png" alt="twitter" width="35" style="cursor: pointer;">
-                    <img src="img/snapchat.png" alt="snapchat" width="35" style="cursor: pointer;">
+                  <h2
+                    style="font-size: 24px; color: #003b64; text-transform: uppercase; font-family: Heletica, sans-serif; font-weight: 100;"
+                  >
+                    Delight in our rich, new flavor
+                  </h2>
                 </td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>
-                    <p>©Tiff's Treats 2019, All Rights Reserved.</p>
+                  <img
+                    src="img/Red-Velvet.jpg"
+                    alt="Red Velvet"
+                    style="max-width: 100%; margin: 0 auto;"
+                  />
                 </td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>
-                    <p>Tiff's Treats <br> 8310-1 N. Capital of Texas Highway, Suite 110, Austin, Texas 78731</p>
+                  <h3
+                    style="padding: 10px 30px; color: #444444; font-size: 18px; font-weight: 400; line-height: 24px;"
+                  >
+                    Our latest Flavor of the Week features a beloved classic.
+                    Our Red Velvet cookies are sprinkled with powdered sugar and
+                    have real cream cheese baked right into the dough. As one of
+                    our most popular flavors, these warm, velvety cookies won't
+                    last long!
+                  </h3>
                 </td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>
-                    <p style="color: #888888;">You have received this email by your request. You may <span
-                            style="font-weight: 500; color: #003b64; cursor: pointer;" ;> unsubscribe </span>from the
-                        mailing list. Having trouble seeing this email? <span
-                            style="color: #003b64; font-weight: 500; cursor: pointer;">View it online here</span>.</p>
+                  <a href="#"
+                    ><img
+                      src="img/order-now-btn.png"
+                      alt="order now"
+                      width="180"
+                  /></a>
                 </td>
-            </tr>
-        </table>
-        <!-- end of footer -->
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- end of order now details-->
+        <!-- start of Elites row -->
+        <tr>
+          <td style="background-color: #003b64;" align="center">
+            <table
+              class="elites"
+              cellspacing="0"
+              cellpadding="20"
+              align="center"
+              style="table-layout: fixed; width: 100%; padding: 5px; border: 1px solid #ffffff; background-color: #003b64;"
+            >
+              <tr>
+                <!-- start of left column -->
+                <td width="25%" class="elites-td">
+                  <table
+                    class="elites"
+                    cellspacing="0"
+                    cellpadding="20"
+                    align="left"
+                    style="table-layout: fixed; width: 100%; background-color: #003b64;"
+                  >
+                    <tr>
+                      <td>
+                        <img
+                          src="img/Elites-white.jpg"
+                          alt="Elites"
+                          style="width: 100%; cursor: pointer;"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <!-- end of left column -->
+                <!-- start of right column -->
+                <td width="75%" class="elites-right-td">
+                  <table
+                    class="elites"
+                    cellspacing="0"
+                    cellpadding="0"
+                    align="left"
+                    style="table-layout: fixed; max-width: 100%; background-color: #003b64;"
+                  >
+                    <tr>
+                      <td>
+                        <h3
+                          style="font-size: 20px; color: #ffffff; font-weight: 500; text-transform: uppercase; margin-bottom: 0;"
+                        >
+                          Never pay for delivery again.
+                        </h3>
+                        <p
+                          style="display: block; font-size: 12px; color: #ffffff; line-height: 16px; margin-top: 0;"
+                        >
+                          Sign up for a Tiff's Treats Elites membership and get
+                          access to exclusive deals, free delivery for a year,
+                          and more!<span
+                            style="text-transform: uppercase; font-weight: 500; cursor: pointer;"
+                          >
+                            SIGN UP NOW</span
+                          >
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- end of Elites row -->
+        <!-- start of footer -->
+      </table>
+
+      <table
+        class="footer"
+        border="0"
+        cellspacing="0"
+        cellpadding="0"
+        align="center"
+        style="width: 100%; max-width: 600px; table-layout: fixed; background-color: #f3f3f3; text-align: center; color: #555555; padding: 10px; font-size: 12px; line-height: 18px;"
+      >
+        <tr>
+          <td align="center">
+            <img
+              src="img/cookie-delivery-com-blue.png"
+              alt="cookie delivery dot com"
+              width="250"
+              style="cursor: pointer;"
+            />
+            <img
+              src="img/Instagram.png"
+              alt="Instagram"
+              width="40"
+              style="cursor: pointer;"
+            />
+            <img
+              src="img/facebook.png"
+              alt="Facebook"
+              width="30"
+              style="cursor: pointer;"
+            />
+            <img
+              src="img/twitter.png"
+              alt="twitter"
+              width="35"
+              style="cursor: pointer;"
+            />
+            <img
+              src="img/snapchat.png"
+              alt="snapchat"
+              width="35"
+              style="cursor: pointer;"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>©Tiff's Treats 2019, All Rights Reserved.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Tiff's Treats <br />
+              8310-1 N. Capital of Texas Highway, Suite 110, Austin, Texas 78731
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p style="color: #888888;">
+              You have received this email by your request. You may
+              <span
+                style="font-weight: 500; color: #003b64; cursor: pointer;"
+                ;
+              >
+                unsubscribe </span
+              >from the mailing list. Having trouble seeing this email?
+              <span style="color: #003b64; font-weight: 500; cursor: pointer;"
+                >View it online here</span
+              >.
+            </p>
+          </td>
+        </tr>
+      </table>
+
+      <!-- end of footer -->
     </div>
     <!-- end of email -->
-</body>
-
+  </body>
 </html>
